@@ -24,7 +24,7 @@ export default function Home() {
               <li>
                 <a
                   href="#proyectos"
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-sm font-bold hover:text-primary transition-colors"
                 >
                   Proyectos
                 </a>
@@ -32,7 +32,7 @@ export default function Home() {
               <li>
                 <a
                   href="#experiencia"
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-sm font-bold hover:text-primary transition-colors"
                 >
                   Experiencia
                 </a>
@@ -40,7 +40,7 @@ export default function Home() {
               <li>
                 <a
                   href="#contacto"
-                  className="text-sm font-medium hover:text-primary transition-colors"
+                  className="text-sm font-bold hover:text-primary transition-colors"
                 >
                   Contacto
                 </a>
@@ -74,14 +74,17 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
-                <div className="absolute inset-1 bg-white dark:bg-gray-900 rounded-full flex items-center justify-center">
-                  <Image
-                    src="/placeholder.svg?height=300&width=300"
-                    alt="Alejandro Largo Toro"
-                    width={300}
-                    height={300}
-                    className="rounded-full"
-                  />
+                <div className="absolute inset-1 bg-white dark:bg-gray-900 rounded-full overflow-hidden">
+                  <div className="relative w-full h-full">
+                    <Image
+                      src="img/foto1.png"
+                      alt="Alejandro Largo Toro"
+                      fill
+                      sizes="(max-width: 768px) 256px, 320px"
+                      className="object-center"
+                      priority
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -305,7 +308,7 @@ export default function Home() {
                 <div className="md:w-1/2 md:pl-12 mb-6 md:mb-0">
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
                     <span className="inline-block px-3 py-1 mb-3 text-xs font-semibold text-white bg-orange-600 rounded-full">
-                      2016 - 2018
+                      2010 - 2017
                     </span>
                     <h3 className="text-xl font-bold mb-2">Media Commerce</h3>
                     <p className="text-gray-600 dark:text-gray-300 mb-3">
