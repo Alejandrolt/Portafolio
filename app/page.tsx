@@ -161,31 +161,24 @@ export default function Home() {
             {/* Timeline line */}
             <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-gradient-to-b from-blue-500 to-purple-600 rounded-full"></div>
 
-            {/* Audifarma */}
+            {/* Freelance */}
             <div className="relative mb-16">
               <div className="flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 md:pr-12 mb-6 md:mb-0 md:text-right">
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
                     <span className="inline-block px-3 py-1 mb-3 text-xs font-semibold text-white bg-blue-600 rounded-full">
-                      2022 - Presente
+                      2024 - Presente
                     </span>
-                    <h3 className="text-xl font-bold mb-2">Audifarma</h3>
+                    <h3 className="text-xl font-bold mb-2">Freelance</h3>
                     <p className="text-gray-600 dark:text-gray-300 mb-3">
-                      Especialista en Mejora Continua
+                      Desarrollador
                     </p>
                     <div className="space-y-2">
                       <p className="flex items-center md:justify-end">
                         <span>
-                          Apoyar el desarrollo de los planes de mejoramiento
-                          continuo, con la unidad de negocio asignada, que
-                          aporten al logro de los acuerdos de niveles de
-                          servicio esperados.
-                        </span>
-                      </p>
-                      <p className="flex items-center md:justify-end">
-                        <span>
-                          Mejora de procesos por medio de herramientas
-                          Tecnologicas.
+                          Diseño y desarrollo de interfaces front y backend para
+                          la creación de plataformas web orientadas a gestión de
+                          usuarios para ecommerce (emprendedores y pymes).
                         </span>
                       </p>
                     </div>
@@ -197,7 +190,7 @@ export default function Home() {
                         Tecnología
                       </Badge>
                       <Badge className="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-100">
-                        Mejora Continua
+                        Proactividad
                       </Badge>
                     </div>
                   </div>
@@ -211,7 +204,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Efecty */}
+            {/* Audifarma */}
             <div className="relative mb-16">
               <div className="flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 md:pr-12 hidden md:block"></div>
@@ -223,29 +216,32 @@ export default function Home() {
                 <div className="md:w-1/2 md:pl-12 mb-6 md:mb-0">
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow">
                     <span className="inline-block px-3 py-1 mb-3 text-xs font-semibold text-white bg-purple-600 rounded-full">
-                      2020 - 2022
+                      2022 - Presente
                     </span>
-                    <h3 className="text-xl font-bold mb-2">Efecty</h3>
+                    <h3 className="text-xl font-bold mb-2">Audifarma</h3>
                     <p className="text-gray-600 dark:text-gray-300 mb-3">
-                      Analista de Operaciones
+                      Aux Estrategia Servicios
                     </p>
                     <div className="space-y-2">
                       <p className="flex items-center">
                         <span>
-                          Realizar seguimiento a puntos que por un periodo de
-                          tiempo recurrente no generen transacciones.
+                          Garantizar el correcto cumplimiento de los niveles de
+                          servicio de la unidad de negocio asignada,
+                          implementado herramientas tecnológicas de mejora y
+                          optimización de procesos realizando desarrollos
+                          propios (Excel y Phyton).
                         </span>
                       </p>
                     </div>
                     <div className="mt-4 flex flex-wrap gap-2">
                       <Badge className="bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-100">
-                        Análisis
+                        Optimizacion
                       </Badge>
                       <Badge className="bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-100">
-                        Seguimiento
+                        Tecnologia
                       </Badge>
                       <Badge className="bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-100">
-                        Operaciones
+                        Mejora Continua
                       </Badge>
                     </div>
                   </div>
@@ -263,14 +259,16 @@ export default function Home() {
                     </span>
                     <h3 className="text-xl font-bold mb-2">Apostar</h3>
                     <p className="text-gray-600 dark:text-gray-300 mb-3">
-                      Supervisor Técnico
+                      Técnico Electronico
                     </p>
                     <div className="space-y-2">
                       <p className="flex items-center md:justify-end">
                         <span>
-                          Gestionar y supervisar el funcionamiento correcto de
-                          las máquinas asignadas a cada uno de los casinos de la
-                          organización brindando el soporte técnico respectivo.
+                          Gestionar y supervisar el correcto funcionamiento e
+                          interconectividad de los equipos tecnológicos
+                          asignados a los casinos de la organización,
+                          garantizando la transmisión de datos y comunicación
+                          con los entes regulatorios.
                         </span>
                       </p>
                     </div>
@@ -312,25 +310,15 @@ export default function Home() {
                     </span>
                     <h3 className="text-xl font-bold mb-2">Media Commerce</h3>
                     <p className="text-gray-600 dark:text-gray-300 mb-3">
-                      Coordinador de Proyectos
+                      Tecnico Inalambrico
                     </p>
                     <div className="space-y-2">
                       <p className="flex items-center">
                         <span>
-                          Presentar informes constantes sobre el kardex y
-                          control del inventario.
-                        </span>
-                      </p>
-                      <p className="flex items-center">
-                        <span>
-                          Proponer y gestionar planes de mejora para la
-                          optimización de la red inalámbrica implementada.
-                        </span>
-                      </p>
-                      <p className="flex items-center">
-                        <span>
-                          Gestionar y apoyar la ejecución de proyectos
-                          organizacionales.
+                          Gestionar y apoyar la ejecución de proyectos enfocados
+                          en la administración de las redes inalámbricas de la
+                          organización, garantizando la optimización de la misma
+                          y la interconexión de los usuarios.
                         </span>
                       </p>
                     </div>
