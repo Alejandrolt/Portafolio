@@ -345,13 +345,13 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">Proyectos</h2>
           <div className="grid gap-8 md:grid-cols-2">
             <Card className="overflow-hidden">
-              <div className="h-48 bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center ">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src="img/cine.jpg"
                   alt="Proyecto de Películas"
                   width={400}
                   height={200}
-                  className="object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
               <CardHeader>
