@@ -413,7 +413,7 @@ export default function Home() {
                 </div>
                 <Button asChild>
                   <a
-                    href="https://github.com/tuusuario/proyecto2"
+                    href="https://pgcam.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
