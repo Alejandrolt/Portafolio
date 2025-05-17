@@ -366,11 +366,12 @@ export default function Home() {
                 <div>
                   <h4 className="font-medium mb-2">Tecnologías utilizadas</h4>
                   <div className="flex flex-wrap gap-2">
+                    <Badge>CSS</Badge>
+                    <Badge>HTML</Badge>
+                    <Badge>JavaScript</Badge>
                     <Badge>React</Badge>
                     <Badge>React Router</Badge>
-                    <Badge>Axios</Badge>
                     <Badge>TMDb API</Badge>
-                    <Badge>CSS Modules</Badge>
                   </div>
                 </div>
                 <Button asChild>
@@ -388,18 +389,19 @@ export default function Home() {
             <Card className="overflow-hidden">
               <div className="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
-                  alt="Proyecto 2"
+                  src="https://images.unsplash.com/photo-1610428338782-b33a39286d38"
+                  alt="Proyecto CCTV"
                   width={400}
                   height={200}
-                  className="object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
               <CardHeader>
-                <CardTitle>Nombre del Proyecto 2</CardTitle>
+                <CardTitle>CctvLive</CardTitle>
                 <CardDescription>
-                  Otra descripción. Puedes incluir enlaces a demos, capturas de
-                  pantalla o más detalles técnicos.
+                  El sitio web https://cctvlive-peach.vercel.app/ corresponde a
+                  CctvLive, una empresa dedicada a la venta e instalación de
+                  cámaras de seguridad.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -409,15 +411,17 @@ export default function Home() {
                     <Badge>HTML</Badge>
                     <Badge>CSS</Badge>
                     <Badge>JavaScript</Badge>
+                    <Badge>Next.js</Badge>
+                    <Badge>React</Badge>
                   </div>
                 </div>
                 <Button asChild>
                   <a
-                    href="https://pgcam.vercel.app/"
+                    href="https://cctvlive-peach.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Ver en GitHub <ArrowRight className="ml-2 h-4 w-4" />
+                    Ver Proyecto <ArrowRight className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
               </CardContent>
