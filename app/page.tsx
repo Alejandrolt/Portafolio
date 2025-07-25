@@ -426,6 +426,48 @@ export default function Home() {
                 </Button>
               </CardContent>
             </Card>
+
+            <Card className="overflow-hidden">
+              <div className="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
+                <Image
+                  src="https://images.unsplash.com/photo-1610428338782-b33a39286d38"
+                  alt="Proyecto CCTV"
+                  width={400}
+                  height={200}
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle>Exclusiones</CardTitle>
+                <CardDescription>
+                  este sitio web tiene como finalidad mejorar un proceso
+                  especifico de periocidad diaria el cual consigue reducir el
+                  tiempo empleado en esta labor y una automatizacion en un 60%
+                  para el puesto de trabajo.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div>
+                  <h4 className="font-medium mb-2">Tecnologías utilizadas</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <Badge>HTML</Badge>
+                    <Badge>CSS</Badge>
+                    <Badge>JavaScript</Badge>
+                    <Badge>Next.js</Badge>
+                    <Badge>Python</Badge>
+                  </div>
+                </div>
+                <Button asChild>
+                  <a
+                    href="https://exclusiones-audi.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Proyecto <ArrowRight className="ml-2 h-4 w-4" />
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </section>
       </main>
