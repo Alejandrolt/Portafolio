@@ -123,3 +123,7 @@
 #experiencia .bg-white:hover {
   animation: pulse 0.5s ease-in-out;
 }
+
+html {
+  scroll-behavior: smooth;
+}

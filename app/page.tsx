@@ -19,8 +19,17 @@ export default function Home() {
           <h1 className="text-xl font-bold md:text-2xl">
             Alejandro Largo Toro
           </h1>
+
           <nav>
             <ul className="flex space-x-4 md:space-x-6">
+              <li>
+                <a
+                  href="#inicio"
+                  className="text-sm font-bold hover:text-primary transition-colors"
+                >
+                  Inicio
+                </a>
+              </li>
               <li>
                 <a
                   href="#proyectos"
@@ -51,6 +60,7 @@ export default function Home() {
       </header>
 
       <main className="container py-8 space-y-4">
+        <section id="inicio"></section>
         {/* Hero Section */}
         <section className="py-12 md:py-12">
           <div className="grid gap-8 md:grid-cols-2 items-center">
@@ -143,11 +153,14 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h2 className="text-3xl font-bold">Sobre Mí</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              Soy un desarrollador de software apasionado por construir
-              soluciones tecnológicas innovadoras y eficientes. Tengo
-              experiencia en tecnologías como HTML, CSS, SCSS, JavaScript y
-              Python, y me enfoco en crear productos que combinan funcionalidad,
-              rendimiento y una excelente experiencia de usuario.
+              Profesional con experiencia multidisciplinaria en áreas
+              administrativas, operativas, técnicas y de desarrollo web. Ha
+              trabajado en sectores como tecnología, telecomunicaciones,
+              servicios farmacéuticos y entretenimiento, desempeñando funciones
+              relacionadas con gestión de procesos, soporte técnico, atención al
+              cliente, análisis de indicadores y desarrollo de soluciones
+              digitales. Se destaca por su capacidad de adaptación, pensamiento
+              analítico y orientación a la mejora continua.
             </p>
           </div>
         </section>
@@ -430,8 +443,8 @@ export default function Home() {
             <Card className="overflow-hidden">
               <div className="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
                 <Image
-                  src="https://images.unsplash.com/photo-1610428338782-b33a39286d38"
-                  alt="Proyecto CCTV"
+                  src="img/python-in-excel-1.webp"
+                  alt="aplicacionpy"
                   width={400}
                   height={200}
                   className="object-cover w-full h-full"
@@ -440,9 +453,9 @@ export default function Home() {
               <CardHeader>
                 <CardTitle>Exclusiones</CardTitle>
                 <CardDescription>
-                  este sitio web tiene como finalidad mejorar un proceso
+                  esta aplicacion web tiene como finalidad mejorar un proceso
                   especifico de periocidad diaria el cual consigue reducir el
-                  tiempo empleado en esta labor y una automatizacion en un 60%
+                  tiempo empleado en esta labor y una automatizacion en un 70%
                   para el puesto de trabajo.
                 </CardDescription>
               </CardHeader>
