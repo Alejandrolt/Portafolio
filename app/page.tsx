@@ -443,8 +443,8 @@ export default function Home() {
             <Card className="overflow-hidden">
               <div className="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
                 <Image
-                  src="img/python-in-excel-1.webp"
-                  alt="aplicacionpy"
+                  src="/img/Python-in-Excel-1.webp"
+                  alt="aplicacionpython"
                   width={400}
                   height={200}
                   className="object-cover w-full h-full"
